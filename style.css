@@ -1,0 +1,199 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 410;
+  font-style: normal;
+}
+.header-fixture{
+  width: 100%;
+  padding: 0 50px;
+  margin-top: 85px;
+  background: url("./photo_2023-12-05_21-30-32.jpeg");
+background-size: cover;
+height: 426px;
+display: flex;
+align-items: center;
+margin-top: 60px;
+justify-content: space-between;
+}
+.header-fixture .left {
+  color:  white;
+}
+
+.header-fixture .left h1{
+  font-family: Noto Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+}
+.header-fixture .left p{
+  font-family: Noto Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+opacity: .8;  
+}
+
+
+.header-fixture .right img{
+  width: 218px;
+  height: 218px;
+  
+  border-radius: 199px;
+  
+}
+
+/*----*/
+.months{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.months .match{
+  width: 90%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 298px;
+  margin: 30px 0;
+  background-color: white;
+}
+.months .match  .footer{
+  opacity: .7;
+  width: 92%;
+  display: flex;
+  justify-content:space-between;
+  
+  align-items: center;
+}
+.months .match  .footer .leftfooter
+,
+.months .match  .footer .rightfooter{
+display: flex;
+align-items: center;
+}
+.months .match  .footer .leftfooter img
+,
+.months .match  .footer .rightfooter img
+{
+
+width: 40px;
+height: 40px;
+object-fit: cover;
+margin-right: 10px ;
+}
+.months .header-month{
+  margin-left: 80px;
+  margin:  30px 0px 10px 80px;
+  align-self: flex-start;
+}
+.months .header-month h1{
+color:#E22028;
+margin-bottom: 5px;
+}
+.months .match .main{
+  display: flex;
+}
+.months  .match .button_match{
+   background: #E22028;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 15px;
+  border: 0;
+  outline: 0;
+  height: 50px;
+  width: 65%;
+height: 48px;
+padding: 14px, 0px, 14px, 0px;
+border-radius: 8px;
+}
+.months  .match .button_match .icon{
+width: 30px;
+margin: 0px 10px;
+color:white;
+}
+.months .match .header-match{
+
+  text-align: center;
+}
+.months .match .header-match .op{
+  margin: 4px 0;
+opacity: .7;
+}
+.months .match img{
+width: 65px;
+border: 1px solid rgb(224, 222, 222);
+border-radius: 50%;
+object-fit: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+}
+.months .main .result{
+  display: flex;
+}
+.months .main .result h2{
+  background-color: #E22028;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+  margin: 7px 20px;
+}
+@media screen and (max-width:550px){
+  .header-fixture{
+    width: 100%;
+    padding: 0 0px;
+}
+.months .header-month{
+width: 90%;
+margin: 0;
+margin-top: 20px ;
+align-self: center;
+}
+.months .header-month p{
+
+font-size: 14px;
+}
+.header-fixture{
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.header-fixture .left h1 {
+  font-size: 24px;
+}
+.header-fixture .left p {
+  font-size: 16px; 
+  text-align: center;
+}
+.months .main .one h4{
+  margin: 5px 0;
+text-align: center;
+}
+.months .main .result h2{
+  margin-top: 10px;
+  background-color: #E22028;
+  width: 50px;
+  height: 50px;
+}
+}
